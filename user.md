@@ -12,7 +12,8 @@ GET /user
   "id": 123,
   "first_name" : "...",
   "last_name": "...",
-  "current_profile_id": 123
+  "current_profile_id": 123,
+  "video_evaluation_credits": 123 // When user has no video credits, return 0
 }
 ```
 
