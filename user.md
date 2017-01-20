@@ -20,15 +20,13 @@ GET /user
 :large_blue_circle: Set current user info.
 
 ```javascript
-POST /account
+POST /user
 ```
 
 ### Request params
 ```javascript
 {
-  "user": {
-    "current_profile_id": 123
-  }
+  "current_profile_id": 123
 }
 ```
 
